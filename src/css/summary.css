@@ -55,6 +55,10 @@ li:last-child{
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
     outline: none;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: hsl(234, 85%, 45%);
 }
 @media  screen and (min-width:768px) {
     .summry h2{
