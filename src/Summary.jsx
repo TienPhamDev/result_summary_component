@@ -9,7 +9,7 @@ export const Summary = () => {
       {
         data.map((item)=>{
           return <li key={item.category}>
-            <img src={`/result_summary_component/${item.icon.subtract(2)}`} alt={item.category} />
+            <img src={`/result_summary_component/${item.icon.slice(2)}`} alt={item.category} />
             <span className="nameItem">{item.category}</span>
             <span>
               <span className="scoreItem">{item.score}</span> 
